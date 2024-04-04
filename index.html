@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Buscador de Superhéroes</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav id="logo" class="navbar navbar-expand-lg navbar-dark bg-dark"><img src="./assets/img/sh2.jpg" alt="picture"
+        class="m-2">
+      <h4>SuperHero</h4>
+    </nav>
+  </header>
+  <main class="container mt-5">
+    <div id="imgsuper">
+      <img src="./assets/img/sh1.jpg" alt="">
+    </div>
+    <section id="search-section">
+      <h1>Encuentra tú SuperHero</h1>
+      <form id="search-form">
+        <div class="form-group">
+          <label for="hero-id">Ingresa el número del SuperHero a buscar:</label>
+          <input type="text" class="form-control" id="hero-id" placeholder="Ingrese el número del 1 al 732" />
+        </div>
+        <button type="submit" class="btn btn-primary">Buscar</button>
+      </form>
+    </section>
+    <section id="result-section" class="mt-5">
+          <!-- Los resultados -->
+    </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div id="hero-info" style="height: 350px;">
+          <!-- Tarjeta del superhéroe -->
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div id="hero-chart" style="height: 430px; width: 100%;"></div>
+          <!-- Grafico -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

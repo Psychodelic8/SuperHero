@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#logo img {
+  width: 60px;
+  height: auto;
+}
+
+h3 {
+  text-align: right
+}
+
+h4 {
+  color: white;
+}
+
+#imgsuper {
+  text-align: center;
+}
